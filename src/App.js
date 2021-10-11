@@ -1,12 +1,12 @@
 import "./App.css";
-import Header from "./containers/Header";
+import Header from "./components/Header";
 import {
 	BrowserRouter as Router,
 	Switch,
 	Route,
 } from "react-router-dom";
-import ProductListing from "./containers/ProductListing";
-import ProductDetails from "./containers/ProductDetails";
+import ProductListing from "./components/ProductListing";
+import ProductDetails from "./components/ProductDetails";
 function App() {
 	return (
 		<div className="App">
