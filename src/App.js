@@ -4,6 +4,16 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ProductListing from "./components/ProductListing";
 import ProductDetails from "./components/ProductDetails";
 function App() {
+  const styles = {
+  nav: {
+    height: "10vh",
+    borderBottom: "0.5px grey solid",
+    display: "flex",
+    justifyContent: "flex-end",
+    alignItems: "center",
+  },
+};
+
   return (
     <div className="App">
       <Router>
